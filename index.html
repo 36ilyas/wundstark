@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WundSTARK · Drei Website-Entwürfe zur Auswahl</title>
+<meta name="description" content="Drei Design-Entwürfe für die Website des WundSTARK-Wundzentrums in Viersen &amp; Mönchengladbach — zur Auswahl und zum Vergleich.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  body{margin:0;background:#E3E1DE;font-family:'IBM Plex Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;color:#1B1A19;}
+  a{text-decoration:none;color:inherit;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+
+  /* HERO */
+  header.hero{padding:76px 0 52px;text-align:center;}
+  .brand{font-family:'Spectral',serif;font-weight:700;font-size:22px;letter-spacing:.01em;margin-bottom:28px;}
+  .brand span{color:#C41E33;}
+  .eyebrow{font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:#C41E33;font-weight:700;margin-bottom:20px;}
+  h1{font-family:'Spectral',serif;font-weight:600;font-size:clamp(34px,5vw,56px);line-height:1.08;letter-spacing:-.01em;margin:0 auto 22px;max-width:760px;}
+  h1 em{font-style:italic;color:#C41E33;}
+  .lead{font-size:19px;line-height:1.65;color:#56524E;max-width:620px;margin:0 auto;}
+
+  /* CARDS */
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:26px 0 40px;}
+  .card{background:#fff;border:1px solid #DAD6D1;border-radius:18px;overflow:hidden;box-shadow:0 30px 60px -45px rgba(28,26,25,.55);display:flex;flex-direction:column;transition:transform .18s ease, box-shadow .18s ease;}
+  .card:hover{transform:translateY(-4px);box-shadow:0 44px 80px -45px rgba(28,26,25,.6);}
+  .thumb{position:relative;height:264px;overflow:hidden;border-bottom:1px solid #EDEBE8;background:#F5F1EB;}
+  .thumb iframe{position:absolute;top:0;left:0;width:1280px;height:900px;border:0;transform:scale(.323);transform-origin:top left;pointer-events:none;}
+  .tag{position:absolute;top:14px;left:14px;z-index:2;background:#1B1A19;color:#fff;font-weight:700;font-size:12px;padding:6px 12px;border-radius:999px;}
+  .body{padding:26px 24px 24px;display:flex;flex-direction:column;flex:1;}
+  .kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#8A8580;font-weight:700;margin-bottom:10px;}
+  .card h2{font-family:'Spectral',serif;font-weight:600;font-size:24px;margin:0 0 10px;}
+  .card p{font-size:15px;line-height:1.6;color:#56524E;margin:0 0 18px;flex:1;}
+  .swatches{display:flex;gap:7px;margin-bottom:20px;}
+  .sw{width:22px;height:22px;border-radius:6px;border:1px solid rgba(0,0,0,.08);}
+  .go{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:15px;color:#C41E33;}
+  .go svg{transition:transform .18s ease;}
+  .card:hover .go svg{transform:translateX(4px);}
+
+  /* NOTE */
+  .note{background:#F6F1E9;border:1px solid #E1D9CD;border-radius:16px;padding:26px 30px;margin:8px 0 60px;display:flex;gap:18px;align-items:flex-start;}
+  .note .dot{flex:none;width:34px;height:34px;border-radius:10px;background:#C41E33;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;}
+  .note p{margin:0;font-size:15px;line-height:1.65;color:#56524E;}
+  .note strong{color:#1B1A19;}
+
+  footer{border-top:1px solid #D4D0CB;padding:26px 0;text-align:center;font-size:13px;color:#8A8580;}
+  footer span{color:#C41E33;font-weight:600;}
+
+  @media(max-width:900px){.grid{grid-template-columns:1fr;}.thumb{height:300px;}.thumb iframe{transform:scale(.5);}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">Wund<span>STARK</span>&reg; · Wundzentrum</div>
+    <div class="eyebrow">Website-Relaunch · Drei Richtungen zur Auswahl</div>
+    <h1>Wir haben <em>drei Entwürfe</em> für die neue WundSTARK-Website vorbereitet.</h1>
+    <p class="lead">Alle drei bündeln dieselben Inhalte – Wundversorgung, Podologie, Lymphdrainage, Team und Standorte in Viersen &amp; Mönchengladbach – in je einer eigenständigen Startseite. Sie unterscheiden sich in Tonalität, Typografie und Layout. Schauen Sie sich jede Variante an und wählen Sie Ihren Favoriten.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="grid">
+
+    <!-- 1a -->
+    <a class="card" href="./entwurf-1a.html">
+      <div class="thumb"><span class="tag">1a</span><iframe src="./entwurf-1a.html" title="Vorschau Entwurf 1a" scrolling="no" loading="lazy"></iframe></div>
+      <div class="body">
+        <div class="kicker">Ruhig &amp; vertrauensvoll</div>
+        <h2>Serif-Display</h2>
+        <p>Warmes Creme, ein ruhiges Vollbild-Hero und eine elegante Serifenschrift (Spectral). Wirkt vertrauensvoll, hochwertig und persönlich.</p>
+        <div class="swatches"><span class="sw" style="background:#C41E33;"></span><span class="sw" style="background:#F5F1EB;"></span><span class="sw" style="background:#1B1A19;"></span><span class="sw" style="background:#FF8093;"></span></div>
+        <span class="go">Entwurf ansehen <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
+    </a>
+
+    <!-- 1b -->
+    <a class="card" href="./entwurf-1b.html">
+      <div class="thumb"><span class="tag">1b</span><iframe src="./entwurf-1b.html" title="Vorschau Entwurf 1b" scrolling="no" loading="lazy"></iframe></div>
+      <div class="body">
+        <div class="kicker">Klinisch-klar &amp; professionell</div>
+        <h2>Grotesk-Grid</h2>
+        <p>Klare Rasterstruktur, kräftige Grotesk-Headlines (Bricolage) und viel Weißraum. Strukturiert, sachlich und modern-medizinisch.</p>
+        <div class="swatches"><span class="sw" style="background:#C41E33;"></span><span class="sw" style="background:#FAF8F6;"></span><span class="sw" style="background:#1B1A19;"></span><span class="sw" style="background:#E7E4E1;"></span></div>
+        <span class="go">Entwurf ansehen <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
+    </a>
+
+    <!-- 1c -->
+    <a class="card" href="./entwurf-1c.html">
+      <div class="thumb"><span class="tag">1c</span><iframe src="./entwurf-1c.html" title="Vorschau Entwurf 1c" scrolling="no" loading="lazy"></iframe></div>
+      <div class="body">
+        <div class="kicker">Warm &amp; menschlich</div>
+        <h2>Editorial</h2>
+        <p>Sandtöne, weiche Rundungen und ein redaktioneller Rhythmus mit kursiven Akzenten. Nahbar, einladend und menschlich.</p>
+        <div class="swatches"><span class="sw" style="background:#C41E33;"></span><span class="sw" style="background:#F6F1E9;"></span><span class="sw" style="background:#1B1A19;"></span><span class="sw" style="background:#E1D9CD;"></span></div>
+        <span class="go">Entwurf ansehen <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="note">
+    <div class="dot">i</div>
+    <p><strong>Hinweis:</strong> Es handelt sich um Design-Entwürfe. Texte, Team-Namen und Bilder sind Platzhalter und können jederzeit ausgetauscht werden. Die verwendeten Fotos stammen von Unsplash und dienen nur zur Illustration.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© 2023–2026 <span>WundSTARK</span> GmbH · Wundzentrum Viersen &amp; Mönchengladbach — Entwurfsübersicht</div>
+</footer>
+
+</body>
+</html>

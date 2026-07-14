@@ -1,0 +1,6 @@
+# Nicht zum WundSTARK-Projekt gehörendes Material / lokale Artefakte
+uploads/
+scraps/
+.thumbnail
+.DS_Store
+Thumbs.db

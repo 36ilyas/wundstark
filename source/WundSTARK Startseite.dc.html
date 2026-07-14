@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600;700&family=Spectral:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+  body { margin:0; background:#E3E1DE; font-family:'IBM Plex Sans',system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
+  a { color:#C41E33; text-decoration:none; }
+  a:hover { color:#9E1428; }
+  * { box-sizing:border-box; }
+</style>
+</helmet>
+<section style="padding:84px 90px; min-width:4300px;">
+  <div style="display:flex; align-items:flex-start; gap:88px;">
+
+    <!-- ================================================================= -->
+    <!-- 1A · RUHIG & VERTRAUENSVOLL · ROT + CREME · SERIF-DISPLAY          -->
+    <!-- ================================================================= -->
+    <div id="1a" style="position:relative; width:1280px; border-radius:16px; overflow:hidden; box-shadow:0 44px 100px -55px rgba(28,26,25,.5); border:1px solid #DAD6D1;">
+      <div style="position:absolute; top:14px; left:50%; transform:translateX(-50%); z-index:80; background:#1B1A19; color:#fff; font-weight:700; font-size:14px; padding:7px 16px; border-radius:999px;">1a · Ruhig &amp; vertrauensvoll · Serif</div>
+
+      <!-- browser chrome -->
+      <div style="display:flex; align-items:center; gap:14px; padding:13px 18px; background:#E9E6E2; border-bottom:1px solid #DAD6D1;">
+        <div style="display:flex; gap:7px;"><span style="width:11px;height:11px;border-radius:50%;background:#D6D2CE;"></span><span style="width:11px;height:11px;border-radius:50%;background:#D6D2CE;"></span><span style="width:11px;height:11px;border-radius:50%;background:#D6D2CE;"></span></div>
+        <div style="width:340px; background:#fff; border:1px solid #DAD6D1; border-radius:999px; padding:7px 16px; display:flex; align-items:center; gap:8px; font-size:13px; color:#6E6862;"><span style="width:11px;height:11px;border:1.5px solid #B9B3AC;border-radius:3px;display:inline-block;"></span>wundstark.de</div>
+        <div style="width:40px;"></div>
+      </div>
+
+      <!-- HERO (full-bleed background image) -->
+      <div style="position:relative; height:640px; overflow:hidden; background:#F5F1EB;">
+        <div style="position:absolute; inset:0;"><image-slot id="v1a-hero" src="https://images.unsplash.com/photo-1454875392665-2ac2c85e8d3e?ixlib=rb-4.1.0&auto=format&fit=crop&crop=entropy&q=80&w=1400&h=780" credit="Photo by Danie Franco on Unsplash" credit-href="https://unsplash.com/@dani_franco" shape="rect" fit="cover" placeholder="Hintergrundbild: Wundzentrum / Betreuung"></image-slot></div>
+        <div style="position:absolute; inset:0; pointer-events:none; background:linear-gradient(102deg, rgba(30,20,20,.82) 0%, rgba(40,26,26,.55) 46%, rgba(120,15,28,.18) 100%);"></div>
+
+        <!-- header -->
+        <div style="position:relative; display:flex; align-items:center; justify-content:space-between; padding:26px 54px;">
+          <div style="display:flex; flex-direction:column; line-height:1;">
+            <div style="font-family:'Spectral',serif; font-weight:700; font-size:26px; color:#fff; letter-spacing:.01em;">Wund<span style="color:#FF8093;">STARK</span><span style="font-size:12px; vertical-align:super;">&reg;</span></div>
+            <div style="font-size:10px; letter-spacing:.34em; text-transform:uppercase; color:rgba(255,255,255,.7); margin-top:6px; font-weight:600;">Wundzentrum</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:30px;">
+            <div style="display:flex; gap:26px; font-size:14.5px; color:rgba(255,255,255,.92);"><span>Leistungen</span><span>Standorte</span><span>Ablauf</span><span>Kontakt</span></div>
+            <div style="background:#fff; color:#C41E33; font-weight:600; font-size:14.5px; padding:11px 20px; border-radius:8px;">Termin vereinbaren</div>
+          </div>
+        </div>
+
+        <!-- hero copy + info card -->
+        <div style="position:relative; display:grid; grid-template-columns:1fr 320px; gap:40px; align-items:end; padding:56px 54px 46px; height:calc(100% - 92px);">
+          <div>
+            <div style="font-size:12px; letter-spacing:.28em; text-transform:uppercase; color:rgba(255,255,255,.82); font-weight:600; margin-bottom:22px;">Ihr Wundzentrum · Viersen &amp; Mönchengladbach</div>
+            <h1 style="font-family:'Spectral',serif; font-weight:600; font-size:60px; line-height:1.05; letter-spacing:-.01em; color:#fff; margin:0 0 22px; max-width:640px;">Moderne Wundversorgung, die heilt und begleitet.</h1>
+            <p style="font-size:18px; line-height:1.6; color:rgba(255,255,255,.85); margin:0 0 30px; max-width:500px;">Kompetente Betreuung bei chronischen und schwer heilenden Wunden – ganzheitlich, evidenzbasiert und zentral gelegen am Niederrhein.</p>
+            <div style="display:flex; align-items:center; gap:22px;">
+              <div style="background:#C41E33; color:#fff; font-weight:600; font-size:16px; padding:15px 26px; border-radius:9px;">Termin vereinbaren</div>
+              <div style="color:#fff; font-weight:600; font-size:17px;">0 21 62 / 361 84 90</div>
+            </div>
+          </div>
+          <div style="background:rgba(255,255,255,.94); border-radius:14px; padding:28px 26px; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);">
+            <div style="margin-bottom:20px;"><div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:7px;">Standorte</div><div style="font-size:14.5px; color:#3A3733; line-height:1.5;">Hauptstraße 19, Viersen<br>Rathenaustraße 6–8, MG</div></div>
+            <div style="margin-bottom:20px; padding-top:18px; border-top:1px solid #E7E4E1;"><div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:7px;">Sprechzeiten</div><div style="font-size:14.5px; color:#3A3733; line-height:1.5;">Mo–Fr 08:00–16:00<br>Termin erforderlich</div></div>
+            <div style="padding-top:18px; border-top:1px solid #E7E4E1;"><div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:7px;">Kontakt</div><div style="font-size:14.5px; color:#3A3733; line-height:1.5;">0 21 62 / 361 84 90<br>info@wundstark.de</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WILLKOMMEN -->
+      <div style="background:#F5F1EB; padding:64px 54px; display:grid; grid-template-columns:.85fr 1.15fr; gap:48px; align-items:center;">
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:14px;">Wir sind für Sie da</div>
+          <h2 style="font-family:'Spectral',serif; font-weight:600; font-size:38px; line-height:1.15; color:#1B1A19; margin:0;">Ein spezialisiertes Wundzentrum, in dem der Mensch im Mittelpunkt steht.</h2>
+        </div>
+        <p style="font-size:18px; line-height:1.7; color:#56524E; margin:0;">Wir versorgen chronische und schwer heilende Wunden interdisziplinär, evidenzbasiert und menschlich. Pflege, Podologie und Medizin arbeiten Hand in Hand – eng vernetzt mit Haus- und Fachärzt*innen, Physiotherapie und Orthopädietechnik. So planen wir Ihre Versorgung ganzheitlich, mit klaren Therapiezielen und Zeit für Beratung.</p>
+      </div>
+
+      <!-- LEISTUNGEN -->
+      <div style="background:#fff; padding:64px 54px;">
+        <div style="display:flex; align-items:flex-end; justify-content:space-between; margin-bottom:14px;">
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700;">Unsere Leistungen</div>
+          <div style="font-size:14px; color:#8A8580;">Versorgung unter einem Dach</div>
+        </div>
+        <h2 style="font-family:'Spectral',serif; font-weight:600; font-size:34px; color:#1B1A19; margin:0 0 34px;">Fünf Schwerpunkte, ein Behandlungsplan</h2>
+        <div style="border-top:1px solid #E7E4E1;">
+          <div style="display:grid; grid-template-columns:64px 1fr 1.4fr auto; gap:26px; padding:24px 0; border-bottom:1px solid #E7E4E1; align-items:center;"><div style="font-family:'Spectral',serif; font-size:22px; color:#C41E33;">01</div><div style="font-family:'Spectral',serif; font-weight:600; font-size:22px; color:#1B1A19;">Wundversorgung</div><div style="font-size:15px; color:#56524E; line-height:1.55;">Leitlinienorientierte Behandlung chronischer und schwer heilender Wunden – mit nachvollziehbarer Dokumentation.</div><div style="font-size:14px; color:#C41E33; font-weight:600;">mehr →</div></div>
+          <div style="display:grid; grid-template-columns:64px 1fr 1.4fr auto; gap:26px; padding:24px 0; border-bottom:1px solid #E7E4E1; align-items:center;"><div style="font-family:'Spectral',serif; font-size:22px; color:#C41E33;">02</div><div style="font-family:'Spectral',serif; font-weight:600; font-size:22px; color:#1B1A19;">Podologie</div><div style="font-size:15px; color:#56524E; line-height:1.55;">Medizinische Fußpflege und Prävention, u. a. beim diabetischen Fußsyndrom. Am Standort Mönchengladbach.</div><div style="font-size:14px; color:#C41E33; font-weight:600;">mehr →</div></div>
+          <div style="display:grid; grid-template-columns:64px 1fr 1.4fr auto; gap:26px; padding:24px 0; border-bottom:1px solid #E7E4E1; align-items:center;"><div style="font-family:'Spectral',serif; font-size:22px; color:#C41E33;">03</div><div style="font-family:'Spectral',serif; font-weight:600; font-size:22px; color:#1B1A19;">Manuelle Lymphdrainage</div><div style="font-size:15px; color:#56524E; line-height:1.55;">Entstauungstherapie zur Unterstützung der Wundheilung und Abschwellung im Rahmen Ihres Plans.</div><div style="font-size:14px; color:#C41E33; font-weight:600;">mehr →</div></div>
+          <div style="display:grid; grid-template-columns:64px 1fr 1.4fr auto; gap:26px; padding:24px 0; border-bottom:1px solid #E7E4E1; align-items:center;"><div style="font-family:'Spectral',serif; font-size:22px; color:#C41E33;">04</div><div style="font-family:'Spectral',serif; font-weight:600; font-size:22px; color:#1B1A19;">Beratung &amp; Nachsorge</div><div style="font-size:15px; color:#56524E; line-height:1.55;">Enge Zusammenarbeit mit Verordnern, klare Therapieziele und engmaschige Begleitung nach der Entlassung.</div><div style="font-size:14px; color:#C41E33; font-weight:600;">mehr →</div></div>
+          <div style="display:grid; grid-template-columns:64px 1fr 1.4fr auto; gap:26px; padding:24px 0; border-bottom:1px solid #E7E4E1; align-items:center;"><div style="font-family:'Spectral',serif; font-size:22px; color:#C41E33;">05</div><div style="font-family:'Spectral',serif; font-weight:600; font-size:22px; color:#1B1A19;">Dokumentation &amp; Qualität</div><div style="font-size:15px; color:#56524E; line-height:1.55;">Strukturierte Abläufe, nachvollziehbare Dokumentation und kollegiale Fallbesprechungen.</div><div style="font-size:14px; color:#C41E33; font-weight:600;">mehr →</div></div>
+        </div>
+        <div style="margin-top:22px; font-size:15px; color:#56524E;">Interdisziplinär: Pflege, Podologie und Medizin Hand in Hand. <a href="#1a" style="font-weight:600;">Alle Leistungen ansehen →</a></div>
+      </div>
+
+      <!-- ÜBERBLICK -->
+      <div style="background:#C41E33; padding:60px 54px; display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;">
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#FBD9DD; font-weight:700; margin-bottom:14px;">Das Wundzentrum im Überblick</div>
+          <h2 style="font-family:'Spectral',serif; font-weight:600; font-size:36px; line-height:1.15; color:#fff; margin:0 0 16px;">Der Mensch im Mittelpunkt.</h2>
+          <p style="font-size:17px; line-height:1.6; color:#FBD9DD; margin:0;">Kurze Wege, klare Abläufe und moderne Wundversorgung. Bei chronischen Wunden ist die Ursache oft entscheidend – mit Erfahrung und Geduld erreichen wir gemeinsam das Optimum für Ihre Lebensqualität.</p>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#fff;"><span style="font-size:17px;">✓</span>Alle gesetzlichen Krankenkassen</div>
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#fff;"><span style="font-size:17px;">✓</span>Barrierefrei zugänglich</div>
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#fff;"><span style="font-size:17px;">✓</span>Kostenloser Parkplatz</div>
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#fff;"><span style="font-size:17px;">✓</span>Interdisziplinäres Team</div>
+        </div>
+      </div>
+
+      <!-- TEAM -->
+      <div style="background:#F5F1EB; padding:64px 54px; display:grid; grid-template-columns:340px 1fr; gap:48px; align-items:center;">
+        <div style="position:relative; width:340px; height:400px; border-radius:14px; overflow:hidden;"><image-slot id="v1a-portrait" src="https://images.unsplash.com/photo-1587556930799-8dca6fad6d41?ixlib=rb-4.1.0&auto=format&fit=crop&crop=faces&q=80&w=680&h=800" credit="Photo by Georg Arthur Pflueger on Unsplash" credit-href="https://unsplash.com/@knurpselknie" shape="rect" fit="cover" placeholder="Porträt: Leitung / Team"></image-slot></div>
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:14px;">Ihr Team</div>
+          <h2 style="font-family:'Spectral',serif; font-weight:600; font-size:34px; color:#1B1A19; margin:0 0 10px;">Daniela Koppermann &amp; Sebastian Schmitz</h2>
+          <div style="font-size:16px; color:#56524E; margin-bottom:22px;">Leitung Wundzentrum · Zertifizierte Wundexpert*innen (ICW), Fachtherapie Wunde</div>
+          <div style="display:flex; flex-wrap:wrap; gap:9px; margin-bottom:22px;">
+            <span style="border:1px solid #DAD6D1; border-radius:999px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Chronische Wunden</span>
+            <span style="border:1px solid #DAD6D1; border-radius:999px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Diabetisches Fußsyndrom</span>
+            <span style="border:1px solid #DAD6D1; border-radius:999px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Ulcus cruris</span>
+            <span style="border:1px solid #DAD6D1; border-radius:999px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Dekubitus</span>
+            <span style="border:1px solid #DAD6D1; border-radius:999px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Podologie</span>
+          </div>
+          <div style="font-size:14.5px; color:#8A8580; padding-top:18px; border-top:1px solid #E7E4E1;">Vertrag mit allen gesetzlichen Krankenkassen nach den HKP-Richtlinien.</div>
+        </div>
+      </div>
+
+      <!-- SPRECHZEITEN + ANFAHRT -->
+      <div style="background:#fff; padding:60px 54px; display:grid; grid-template-columns:1fr 1fr; gap:48px;">
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:18px;">Sprechzeiten</div>
+          <div style="display:flex; justify-content:space-between; padding:14px 0; border-bottom:1px solid #E7E4E1; font-size:16px; color:#1B1A19;"><span>Montag – Freitag</span><span style="font-weight:600;">08:00 – 16:00</span></div>
+          <div style="display:flex; justify-content:space-between; padding:14px 0; border-bottom:1px solid #E7E4E1; font-size:16px; color:#8A8580;"><span>Samstag &amp; Sonntag</span><span>geschlossen</span></div>
+          <div style="font-size:14.5px; color:#8A8580; margin-top:18px; line-height:1.55;">Termin erforderlich. Bitte ärztliche Verordnung, Medikamentenliste und vorhandene Wundunterlagen mitbringen.</div>
+        </div>
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:18px;">Termin &amp; Anfahrt</div>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+            <div style="border-radius:12px; overflow:hidden; border:1px solid #E7E4E1;"><div style="position:relative; height:120px;"><image-slot id="v1a-map-vie" shape="rect" placeholder="Karte Viersen"></image-slot></div><div style="padding:12px 14px;"><div style="font-weight:600; font-size:15px; color:#1B1A19;">Viersen</div><div style="font-size:13px; color:#56524E; margin-top:3px;">Hauptstraße 19</div></div></div>
+            <div style="border-radius:12px; overflow:hidden; border:1px solid #E7E4E1;"><div style="position:relative; height:120px;"><image-slot id="v1a-map-mg" shape="rect" placeholder="Karte MG"></image-slot></div><div style="padding:12px 14px;"><div style="font-weight:600; font-size:15px; color:#1B1A19;">Mönchengladbach</div><div style="font-size:13px; color:#56524E; margin-top:3px;">Rathenaustraße 6–8</div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div style="background:#1B1A19; padding:26px 54px; display:flex; align-items:center; justify-content:space-between; font-size:13px; color:#9A938C;">
+        <span>© 2023–2026 WundSTARK GmbH · Wundzentrum Viersen &amp; Mönchengladbach</span>
+        <span style="display:flex; gap:22px;"><span>Impressum</span><span>Datenschutz</span><span>Karriere</span></span>
+      </div>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- 1B · KLINISCH-KLAR & PROFESSIONELL · ROT · GROTESK-GRID            -->
+    <!-- ================================================================= -->
+    <div id="1b" style="position:relative; width:1280px; border-radius:16px; overflow:hidden; box-shadow:0 44px 100px -55px rgba(28,26,25,.5); border:1px solid #DAD6D1;">
+      <div style="position:absolute; top:14px; left:50%; transform:translateX(-50%); z-index:80; background:#C41E33; color:#fff; font-weight:700; font-size:14px; padding:7px 16px; border-radius:999px;">1b · Klinisch-klar · Grotesk-Grid</div>
+
+      <!-- browser chrome -->
+      <div style="display:flex; align-items:center; gap:14px; padding:13px 18px; background:#F1EFED; border-bottom:1px solid #E0DCD8;">
+        <div style="display:flex; gap:7px;"><span style="width:11px;height:11px;border-radius:50%;background:#D6D2CE;"></span><span style="width:11px;height:11px;border-radius:50%;background:#D6D2CE;"></span><span style="width:11px;height:11px;border-radius:50%;background:#D6D2CE;"></span></div>
+        <div style="width:340px; background:#fff; border:1px solid #E0DCD8; border-radius:8px; padding:7px 16px; display:flex; align-items:center; gap:8px; font-size:13px; color:#6E6862;"><span style="width:11px;height:11px;border:1.5px solid #B9B3AC;border-radius:3px;display:inline-block;"></span>wundstark.de</div>
+        <div style="width:40px;"></div>
+      </div>
+
+      <!-- header -->
+      <div style="display:flex; align-items:center; justify-content:space-between; padding:22px 52px; border-bottom:1px solid #EDEBE8; background:#fff;">
+        <div style="display:flex; align-items:center; gap:12px;">
+          <div style="width:38px; height:38px; background:#C41E33; border-radius:9px; display:flex; align-items:center; justify-content:center; color:#fff; font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:20px;">W</div>
+          <div style="line-height:1;"><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:20px; color:#1B1A19;">WundSTARK<span style="color:#C41E33;">&reg;</span></div><div style="font-size:10px; letter-spacing:.26em; text-transform:uppercase; color:#9A938C; margin-top:5px; font-weight:600;">Wundzentrum</div></div>
+        </div>
+        <div style="display:flex; align-items:center; gap:28px;">
+          <div style="display:flex; gap:24px; font-size:14.5px; font-weight:600; color:#3A3733;"><span>Leistungen</span><span>Standorte</span><span>Ablauf</span><span>Kontakt</span></div>
+          <div style="background:#C41E33; color:#fff; font-weight:700; font-size:14.5px; padding:12px 20px; border-radius:8px;">Termin vereinbaren</div>
+        </div>
+      </div>
+
+      <!-- HERO grid -->
+      <div style="display:grid; grid-template-columns:1.1fr .9fr; background:#fff;">
+        <div style="padding:60px 52px; border-right:1px solid #EDEBE8;">
+          <div style="font-size:12px; letter-spacing:.26em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:22px;">Wundzentrum · Mönchengladbach &amp; Viersen</div>
+          <h1 style="font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:56px; line-height:1.02; letter-spacing:-.03em; color:#1B1A19; margin:0 0 22px;">Wundversorgung auf leitlinien&shy;gerechtem Niveau.</h1>
+          <p style="font-size:18px; line-height:1.6; color:#56524E; margin:0 0 32px; max-width:520px;">Präzise Diagnostik, moderne Therapie und interdisziplinäre Zusammenarbeit – am zentralen Standort, barrierefrei und mit kurzen Wartezeiten.</p>
+          <div style="display:flex; gap:14px; margin-bottom:38px;">
+            <div style="background:#C41E33; color:#fff; font-weight:700; font-size:16px; padding:15px 26px; border-radius:9px;">Termin vereinbaren</div>
+            <div style="border:1.5px solid #E0DCD8; color:#1B1A19; font-weight:700; font-size:16px; padding:15px 26px; border-radius:9px;">0 21 62 / 361 84 90</div>
+          </div>
+          <div style="position:relative; width:100%; height:230px; border-radius:12px; overflow:hidden;"><image-slot id="v1b-hero" src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?ixlib=rb-4.1.0&auto=format&fit=crop&crop=faces&q=80&w=1100&h=470" credit="Photo by CDC on Unsplash" credit-href="https://unsplash.com/@cdc" shape="rect" fit="cover" placeholder="Foto: Behandlungsraum / Team"></image-slot></div>
+        </div>
+        <div style="padding:60px 44px; background:#FAF8F6;">
+          <div style="margin-bottom:26px; padding-bottom:26px; border-bottom:1px solid #E7E4E1;"><div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:9px;">Standorte</div><div style="font-size:15px; color:#3A3733; line-height:1.55;">Rathenaustraße 6–8, 41061 Mönchengladbach<br>Hauptstraße 19, 41747 Viersen</div></div>
+          <div style="margin-bottom:26px; padding-bottom:26px; border-bottom:1px solid #E7E4E1;"><div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:9px;">Sprechzeiten</div><div style="font-size:15px; color:#3A3733; line-height:1.55;">Mo–Fr 08:00–16:00<br>Termin erforderlich</div></div>
+          <div><div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:9px;">Kontakt</div><div style="font-size:15px; color:#3A3733; line-height:1.55;">0 21 62 / 361 84 90<br>24 h Online-Terminanfrage</div></div>
+        </div>
+      </div>
+
+      <!-- WILLKOMMEN -->
+      <div style="background:#fff; padding:60px 52px; border-top:1px solid #EDEBE8;">
+        <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:14px;">Willkommen</div>
+        <div style="display:grid; grid-template-columns:1fr 1.3fr; gap:48px; align-items:start;">
+          <h2 style="font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:34px; line-height:1.1; letter-spacing:-.02em; color:#1B1A19; margin:0;">Wir freuen uns auf Sie.</h2>
+          <p style="font-size:17px; line-height:1.7; color:#56524E; margin:0;">Wir sind Ihr spezialisiertes Wundzentrum für chronische und schwer heilende Wunden – interdisziplinär, evidenzbasiert und menschlich. Pflege, Podologie und Medizin arbeiten Hand in Hand und sind eng mit Haus- und Fachärzt*innen, Physiotherapie und Orthopädietechnik vernetzt. So planen wir Ihre Versorgung ganzheitlich und nachvollziehbar.</p>
+        </div>
+      </div>
+
+      <!-- LEISTUNGEN grid -->
+      <div style="background:#FAF8F6; padding:60px 52px; border-top:1px solid #EDEBE8;">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:30px;"><div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700;">Leistungen</div><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:22px; color:#1B1A19;">Fünf Schwerpunkte</div></div>
+        <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:#E7E4E1; border:1px solid #E7E4E1; border-radius:12px; overflow:hidden;">
+          <div style="background:#fff; padding:28px 26px;"><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:14px; color:#C41E33; margin-bottom:14px;">01</div><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:19px; color:#1B1A19; margin-bottom:9px;">Wundversorgung</div><div style="font-size:14.5px; line-height:1.55; color:#56524E;">Chronische und schwer heilende Wunden – leitlinienorientiert und dokumentiert.</div></div>
+          <div style="background:#fff; padding:28px 26px;"><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:14px; color:#C41E33; margin-bottom:14px;">02</div><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:19px; color:#1B1A19; margin-bottom:9px;">Podologie</div><div style="font-size:14.5px; line-height:1.55; color:#56524E;">Medizinische Fußpflege &amp; Prävention beim diabetischen Fußsyndrom. Standort MG.</div></div>
+          <div style="background:#fff; padding:28px 26px;"><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:14px; color:#C41E33; margin-bottom:14px;">03</div><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:19px; color:#1B1A19; margin-bottom:9px;">Lymphdrainage</div><div style="font-size:14.5px; line-height:1.55; color:#56524E;">Manuelle Entstauungstherapie zur Unterstützung der Wundheilung.</div></div>
+          <div style="background:#fff; padding:28px 26px;"><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:14px; color:#C41E33; margin-bottom:14px;">04</div><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:19px; color:#1B1A19; margin-bottom:9px;">Beratung &amp; Nachsorge</div><div style="font-size:14.5px; line-height:1.55; color:#56524E;">Enge Zusammenarbeit mit Verordnern und engmaschige Begleitung.</div></div>
+          <div style="background:#fff; padding:28px 26px;"><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:14px; color:#C41E33; margin-bottom:14px;">05</div><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:19px; color:#1B1A19; margin-bottom:9px;">Dokumentation</div><div style="font-size:14.5px; line-height:1.55; color:#56524E;">Strukturierte Abläufe und kollegiale Fallbesprechungen.</div></div>
+          <div style="background:#C41E33; padding:28px 26px; display:flex; flex-direction:column; justify-content:center;"><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:19px; color:#fff; margin-bottom:9px;">Interdisziplinär</div><div style="font-size:14.5px; line-height:1.55; color:#FBD9DD;">Pflege, Podologie und Medizin im selben Netzwerk.</div><div style="font-size:14px; color:#fff; font-weight:700; margin-top:14px;">Alle Leistungen →</div></div>
+        </div>
+      </div>
+
+      <!-- ÜBERBLICK -->
+      <div style="background:#fff; padding:60px 52px; border-top:1px solid #EDEBE8; display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;">
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:14px;">Praxis im Überblick</div>
+          <h2 style="font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:34px; letter-spacing:-.02em; color:#1B1A19; margin:0 0 16px;">Der Patient im Mittelpunkt.</h2>
+          <p style="font-size:17px; line-height:1.65; color:#56524E; margin:0;">Kürzere Wartezeiten, besserer Service und moderne Ausstattung. Bei chronischen Wunden ist die Ursachenforschung entscheidend – mit der bestmöglichen Therapie erreichen wir eine nachhaltige Besserung der Lebensqualität.</p>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#3A3733;"><span style="color:#C41E33; font-size:17px;">✓</span>Barrierefrei zugänglich</div>
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#3A3733;"><span style="color:#C41E33; font-size:17px;">✓</span>Alle Krankenkassen</div>
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#3A3733;"><span style="color:#C41E33; font-size:17px;">✓</span>Kostenloser Parkplatz</div>
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#3A3733;"><span style="color:#C41E33; font-size:17px;">✓</span>Kurze Wartezeiten</div>
+        </div>
+      </div>
+
+      <!-- TEAM -->
+      <div style="background:#FAF8F6; padding:60px 52px; border-top:1px solid #EDEBE8; display:grid; grid-template-columns:1fr 320px; gap:48px; align-items:center;">
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:14px;">Ihr Team</div>
+          <h2 style="font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:32px; letter-spacing:-.02em; color:#1B1A19; margin:0 0 8px;">Daniela Koppermann &amp; Sebastian Schmitz</h2>
+          <div style="font-size:15.5px; color:#56524E; margin-bottom:22px;">Leitung Wundzentrum · Zertifizierte Wundexpert*innen (ICW), Fachtherapie Wunde</div>
+          <div style="display:flex; flex-wrap:wrap; gap:9px; margin-bottom:22px;">
+            <span style="background:#fff; border:1px solid #E0DCD8; border-radius:8px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Chronische Wunden</span>
+            <span style="background:#fff; border:1px solid #E0DCD8; border-radius:8px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Ulcus cruris</span>
+            <span style="background:#fff; border:1px solid #E0DCD8; border-radius:8px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Dekubitus</span>
+            <span style="background:#fff; border:1px solid #E0DCD8; border-radius:8px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Diabetisches Fußsyndrom</span>
+            <span style="background:#fff; border:1px solid #E0DCD8; border-radius:8px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Podologie</span>
+          </div>
+          <div style="font-size:14px; color:#8A8580; padding-top:16px; border-top:1px solid #E7E4E1;">Vertrag mit allen gesetzlichen Krankenkassen nach den HKP-Richtlinien.</div>
+        </div>
+        <div style="position:relative; width:320px; height:340px; border-radius:12px; overflow:hidden;"><image-slot id="v1b-portrait" src="https://images.unsplash.com/photo-1572567981653-ce74f7356946?ixlib=rb-4.1.0&auto=format&fit=crop&crop=faces&q=80&w=680&h=720" credit="Photo by LOGAN WEAVER on Unsplash" credit-href="https://unsplash.com/@lgnwvr" shape="rect" fit="cover" placeholder="Porträt Team"></image-slot></div>
+      </div>
+
+      <!-- SPRECHZEITEN + ANFAHRT -->
+      <div style="background:#fff; padding:56px 52px; border-top:1px solid #EDEBE8; display:grid; grid-template-columns:1fr 1fr; gap:48px;">
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:18px;">Sprechzeiten</div>
+          <div style="display:flex; justify-content:space-between; padding:13px 0; border-bottom:1px solid #E7E4E1; font-size:15.5px; color:#1B1A19;"><span>Montag – Freitag</span><span style="font-weight:600;">08:00 – 16:00</span></div>
+          <div style="display:flex; justify-content:space-between; padding:13px 0; border-bottom:1px solid #E7E4E1; font-size:15.5px; color:#8A8580;"><span>Wochenende</span><span>geschlossen</span></div>
+          <div style="font-size:14px; color:#8A8580; margin-top:16px; line-height:1.55;">Termin erforderlich. Bitte Verordnung, Medikamentenliste und Wundunterlagen mitbringen. Absage bitte spätestens 24 h vorher.</div>
+        </div>
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:18px;">Termin &amp; Anfahrt</div>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+            <div style="border-radius:12px; overflow:hidden; border:1px solid #E7E4E1;"><div style="position:relative; height:120px;"><image-slot id="v1b-map-vie" shape="rect" placeholder="Karte Viersen"></image-slot></div><div style="padding:12px 14px;"><div style="font-weight:600; font-size:15px; color:#1B1A19;">Viersen</div><div style="font-size:13px; color:#56524E; margin-top:3px;">Hauptstraße 19 · kostenloser Parkplatz</div></div></div>
+            <div style="border-radius:12px; overflow:hidden; border:1px solid #E7E4E1;"><div style="position:relative; height:120px;"><image-slot id="v1b-map-mg" shape="rect" placeholder="Karte MG"></image-slot></div><div style="padding:12px 14px;"><div style="font-weight:600; font-size:15px; color:#1B1A19;">Mönchengladbach</div><div style="font-size:13px; color:#56524E; margin-top:3px;">Rathenaustraße 6–8 · inkl. Podologie</div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div style="background:#1B1A19; padding:26px 52px; display:flex; align-items:center; justify-content:space-between; font-size:13px; color:#9A938C;">
+        <span>© 2023–2026 WundSTARK GmbH · Wundzentrum Viersen &amp; Mönchengladbach</span>
+        <span style="display:flex; gap:22px;"><span>Impressum</span><span>Datenschutz</span><span>Karriere</span></span>
+      </div>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- 1C · WARM & MENSCHLICH · SAND + ROT · EDITORIAL                    -->
+    <!-- ================================================================= -->
+    <div id="1c" style="position:relative; width:1280px; border-radius:16px; overflow:hidden; box-shadow:0 44px 100px -55px rgba(28,26,25,.5); border:1px solid #DAD6D1;">
+      <div style="position:absolute; top:14px; left:50%; transform:translateX(-50%); z-index:80; background:#1B1A19; color:#fff; font-weight:700; font-size:14px; padding:7px 16px; border-radius:999px;">1c · Warm &amp; menschlich · editorial</div>
+
+      <!-- browser chrome -->
+      <div style="display:flex; align-items:center; gap:14px; padding:13px 18px; background:#EFE9E1; border-bottom:1px solid #E1D9CD;">
+        <div style="display:flex; gap:7px;"><span style="width:11px;height:11px;border-radius:50%;background:#D8CFC1;"></span><span style="width:11px;height:11px;border-radius:50%;background:#D8CFC1;"></span><span style="width:11px;height:11px;border-radius:50%;background:#D8CFC1;"></span></div>
+        <div style="width:340px; background:#fff; border:1px solid #E1D9CD; border-radius:999px; padding:7px 16px; display:flex; align-items:center; gap:8px; font-size:13px; color:#6E6862;"><span style="width:11px;height:11px;border:1.5px solid #C0B7A8;border-radius:3px;display:inline-block;"></span>wundstark.de</div>
+        <div style="width:40px;"></div>
+      </div>
+
+      <!-- header -->
+      <div style="display:flex; align-items:center; justify-content:space-between; padding:24px 54px; background:#F6F1E9;">
+        <div style="font-family:'Spectral',serif; font-weight:700; font-size:24px; color:#1B1A19;">WundSTARK<span style="color:#C41E33;">&reg;</span></div>
+        <div style="display:flex; align-items:center; gap:30px;">
+          <div style="display:flex; gap:26px; font-size:14.5px; color:#3A3733;"><span>Leistungen</span><span>Standorte</span><span>Ablauf</span><span>Kontakt</span></div>
+          <div style="background:#1B1A19; color:#fff; font-weight:600; font-size:14.5px; padding:11px 20px; border-radius:999px;">Termin vereinbaren</div>
+        </div>
+      </div>
+
+      <!-- HERO editorial -->
+      <div style="background:#F6F1E9; padding:36px 54px 64px; display:grid; grid-template-columns:1.05fr .95fr; gap:48px; align-items:center;">
+        <div>
+          <div style="font-size:12px; letter-spacing:.22em; text-transform:uppercase; color:#C41E33; font-weight:600; margin-bottom:20px;">Wundversorgung · Podologie · Lymphdrainage</div>
+          <h1 style="font-family:'Spectral',serif; font-weight:500; font-size:62px; line-height:1.04; letter-spacing:-.01em; color:#1B1A19; margin:0 0 22px;">Damit Heilung <span style="font-style:italic; color:#C41E33;">menschlich</span> bleibt.</h1>
+          <p style="font-size:18.5px; line-height:1.65; color:#56524E; margin:0 0 32px; max-width:480px;">Ihr Wundzentrum am Niederrhein – ganzheitlich, barrierefrei und mit der Zeit, die Sie brauchen.</p>
+          <div style="display:flex; align-items:center; gap:22px;">
+            <div style="background:#C41E33; color:#fff; font-weight:600; font-size:16px; padding:15px 28px; border-radius:999px;">Termin vereinbaren</div>
+            <div style="font-size:17px; font-weight:600; color:#1B1A19;">0 21 62 / 361 84 90</div>
+          </div>
+        </div>
+        <div style="position:relative;">
+          <div style="position:relative; width:100%; height:460px; border-radius:200px 200px 22px 22px; overflow:hidden;"><image-slot id="v1c-hero" src="https://images.unsplash.com/photo-1559234938-b60fff04894d?ixlib=rb-4.1.0&auto=format&fit=crop&crop=faces&q=80&w=900&h=740" credit="Photo by micheile henderson on Unsplash" credit-href="https://unsplash.com/@micheile" shape="rect" fit="cover" placeholder="Foto: persönliche Betreuung"></image-slot></div>
+        </div>
+      </div>
+
+      <!-- WILLKOMMEN editorial -->
+      <div style="background:#fff; padding:66px 54px; display:grid; grid-template-columns:.8fr 1.2fr; gap:48px; align-items:start;">
+        <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; padding-top:8px;">Wir freuen uns auf Sie</div>
+        <div>
+          <h2 style="font-family:'Spectral',serif; font-weight:500; font-size:34px; line-height:1.3; color:#1B1A19; margin:0 0 18px;">Schön, dass Sie hier sind. Wir sind Ihr kompetenter Ansprechpartner für die Versorgung chronischer und schwer heilender Wunden.</h2>
+          <p style="font-size:17px; line-height:1.7; color:#56524E; margin:0;">Interdisziplinär und menschlich: Pflege, Podologie und Medizin arbeiten Hand in Hand, eng vernetzt mit Haus- und Fachärzt*innen. Durch einen ganzheitlichen Ansatz werden wir Ihren persönlichen Lebensumständen und Bedürfnissen gerecht.</p>
+        </div>
+      </div>
+
+      <!-- LEISTUNGEN editorial list -->
+      <div style="background:#F6F1E9; padding:64px 54px;">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:30px;"><h2 style="font-family:'Spectral',serif; font-weight:500; font-size:34px; color:#1B1A19; margin:0;">Unsere Leistungen</h2><div style="font-size:14.5px; color:#8A8580;">Fünf Schwerpunkte unter einem Dach</div></div>
+        <div style="border-top:1px solid #E1D9CD;">
+          <div style="display:grid; grid-template-columns:56px 260px 1fr auto; gap:24px; padding:22px 0; border-bottom:1px solid #E1D9CD; align-items:center;"><div style="font-family:'Spectral',serif; font-style:italic; font-size:20px; color:#C41E33;">01</div><div style="font-family:'Spectral',serif; font-weight:600; font-size:21px; color:#1B1A19;">Wundversorgung</div><div style="font-size:15px; color:#56524E; line-height:1.55;">Chronische und schwer heilende Wunden, leitlinienorientiert behandelt.</div><div style="font-size:14px; color:#C41E33; font-weight:600;">mehr</div></div>
+          <div style="display:grid; grid-template-columns:56px 260px 1fr auto; gap:24px; padding:22px 0; border-bottom:1px solid #E1D9CD; align-items:center;"><div style="font-family:'Spectral',serif; font-style:italic; font-size:20px; color:#C41E33;">02</div><div style="font-family:'Spectral',serif; font-weight:600; font-size:21px; color:#1B1A19;">Podologie</div><div style="font-size:15px; color:#56524E; line-height:1.55;">Medizinische Fußpflege und Prävention beim diabetischen Fußsyndrom.</div><div style="font-size:14px; color:#C41E33; font-weight:600;">mehr</div></div>
+          <div style="display:grid; grid-template-columns:56px 260px 1fr auto; gap:24px; padding:22px 0; border-bottom:1px solid #E1D9CD; align-items:center;"><div style="font-family:'Spectral',serif; font-style:italic; font-size:20px; color:#C41E33;">03</div><div style="font-family:'Spectral',serif; font-weight:600; font-size:21px; color:#1B1A19;">Manuelle Lymphdrainage</div><div style="font-size:15px; color:#56524E; line-height:1.55;">Entstauungstherapie zur Unterstützung der Wundheilung.</div><div style="font-size:14px; color:#C41E33; font-weight:600;">mehr</div></div>
+          <div style="display:grid; grid-template-columns:56px 260px 1fr auto; gap:24px; padding:22px 0; border-bottom:1px solid #E1D9CD; align-items:center;"><div style="font-family:'Spectral',serif; font-style:italic; font-size:20px; color:#C41E33;">04</div><div style="font-family:'Spectral',serif; font-weight:600; font-size:21px; color:#1B1A19;">Beratung &amp; Nachsorge</div><div style="font-size:15px; color:#56524E; line-height:1.55;">Enge Zusammenarbeit mit Verordnern und engmaschige Begleitung.</div><div style="font-size:14px; color:#C41E33; font-weight:600;">mehr</div></div>
+          <div style="display:grid; grid-template-columns:56px 260px 1fr auto; gap:24px; padding:22px 0; border-bottom:1px solid #E1D9CD; align-items:center;"><div style="font-family:'Spectral',serif; font-style:italic; font-size:20px; color:#C41E33;">05</div><div style="font-family:'Spectral',serif; font-weight:600; font-size:21px; color:#1B1A19;">Dokumentation &amp; Qualität</div><div style="font-size:15px; color:#56524E; line-height:1.55;">Strukturierte Abläufe und kollegiale Fallbesprechungen.</div><div style="font-size:14px; color:#C41E33; font-weight:600;">mehr</div></div>
+        </div>
+      </div>
+
+      <!-- TEAM editorial -->
+      <div style="background:#fff; padding:66px 54px; display:grid; grid-template-columns:300px 1fr; gap:48px; align-items:center;">
+        <div style="position:relative; width:300px; height:360px; border-radius:150px 150px 18px 18px; overflow:hidden;"><image-slot id="v1c-portrait" src="https://images.unsplash.com/photo-1587556930720-58ec521056a5?ixlib=rb-4.1.0&auto=format&fit=crop&crop=faces&q=80&w=640&h=760" credit="Photo by Georg Arthur Pflueger on Unsplash" credit-href="https://unsplash.com/@knurpselknie" shape="rect" fit="cover" placeholder="Porträt Leitung"></image-slot></div>
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:14px;">Ihr Team</div>
+          <h2 style="font-family:'Spectral',serif; font-weight:500; font-size:34px; color:#1B1A19; margin:0 0 8px;">Daniela Koppermann &amp; Sebastian Schmitz</h2>
+          <div style="font-size:16px; color:#56524E; margin-bottom:18px;">Leitung Wundzentrum · Zertifizierte Wundexpert*innen (ICW)</div>
+          <p style="font-size:16.5px; line-height:1.65; color:#56524E; margin:0 0 22px; max-width:520px;">Das für nachhaltige Heilung erforderliche Maß an Einfühlungsvermögen und Geduld ist für uns selbstverständlich – ergänzt durch Fachtherapie Wunde und moderne Versorgung.</p>
+          <div style="display:flex; flex-wrap:wrap; gap:9px;">
+            <span style="border:1px solid #E1D9CD; border-radius:999px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Chronische Wunden</span>
+            <span style="border:1px solid #E1D9CD; border-radius:999px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Ulcus cruris</span>
+            <span style="border:1px solid #E1D9CD; border-radius:999px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Dekubitus</span>
+            <span style="border:1px solid #E1D9CD; border-radius:999px; padding:8px 15px; font-size:13.5px; color:#3A3733;">Diabetisches Fußsyndrom</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ÜBERBLICK band -->
+      <div style="background:#C41E33; padding:60px 54px; display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;">
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#FBD9DD; font-weight:700; margin-bottom:14px;">Unsere Praxis im Überblick</div>
+          <h2 style="font-family:'Spectral',serif; font-weight:500; font-size:36px; line-height:1.15; color:#fff; margin:0 0 14px;">Der Patient im Mittelpunkt.</h2>
+          <p style="font-size:17px; line-height:1.65; color:#FBD9DD; margin:0;">Kürzere Wartezeiten, besserer Service und umfassende Ausstattung – für das Optimum bei jeder Wunde. Wir nehmen uns Zeit für Beratung, Wundpflege und echte Nachsorge.</p>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#fff;"><span style="font-size:17px;">✓</span>Barrierefrei</div>
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#fff;"><span style="font-size:17px;">✓</span>Alle Krankenkassen</div>
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#fff;"><span style="font-size:17px;">✓</span>Kostenloser Parkplatz</div>
+          <div style="display:flex; align-items:center; gap:11px; font-size:15.5px; font-weight:600; color:#fff;"><span style="font-size:17px;">✓</span>Zentral gelegen</div>
+        </div>
+      </div>
+
+      <!-- SPRECHZEITEN + ANFAHRT -->
+      <div style="background:#F6F1E9; padding:60px 54px; display:grid; grid-template-columns:1fr 1fr; gap:48px;">
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:18px;">Sprechzeiten</div>
+          <div style="display:flex; justify-content:space-between; padding:13px 0; border-bottom:1px solid #E1D9CD; font-size:16px; color:#1B1A19;"><span>Montag – Freitag</span><span style="font-weight:600;">08:00 – 16:00</span></div>
+          <div style="display:flex; justify-content:space-between; padding:13px 0; border-bottom:1px solid #E1D9CD; font-size:16px; color:#8A8580;"><span>Samstag &amp; Sonntag</span><span>geschlossen</span></div>
+          <div style="font-size:14px; color:#8A8580; margin-top:16px; line-height:1.55;">Bitte Berichte, Befunde und Medikamentenlisten mitbringen. Absage bitte spätestens 24 h vorher.</div>
+        </div>
+        <div>
+          <div style="font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#C41E33; font-weight:700; margin-bottom:18px;">Termin &amp; Anfahrt</div>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+            <div style="background:#fff; border-radius:14px; overflow:hidden;"><div style="position:relative; height:120px;"><image-slot id="v1c-map-vie" shape="rect" placeholder="Karte Viersen"></image-slot></div><div style="padding:12px 14px;"><div style="font-weight:600; font-size:15px; color:#1B1A19;">Viersen</div><div style="font-size:13px; color:#56524E; margin-top:3px;">Hauptstraße 19</div></div></div>
+            <div style="background:#fff; border-radius:14px; overflow:hidden;"><div style="position:relative; height:120px;"><image-slot id="v1c-map-mg" shape="rect" placeholder="Karte MG"></image-slot></div><div style="padding:12px 14px;"><div style="font-weight:600; font-size:15px; color:#1B1A19;">Mönchengladbach</div><div style="font-size:13px; color:#56524E; margin-top:3px;">Rathenaustraße 6–8</div></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div style="background:#1B1A19; padding:26px 54px; display:flex; align-items:center; justify-content:space-between; font-size:13px; color:#9A938C;">
+        <span>© 2023–2026 WundSTARK GmbH · Wundzentrum Viersen &amp; Mönchengladbach</span>
+        <span style="display:flex; gap:22px;"><span>Impressum</span><span>Datenschutz</span><span>Karriere</span></span>
+      </div>
+    </div>
+
+  </div>
+</section>
+</x-dc>
+</body>
+</html>
