@@ -19,7 +19,20 @@
   .backbar a{font-weight:600;}
   .credit{position:absolute;right:8px;bottom:6px;font-size:10px;color:rgba(255,255,255,.8);background:rgba(0,0,0,.28);padding:2px 7px;border-radius:6px;}
   .mapph{height:120px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#F1EFED,#E4E0DB);color:#B9B3AC;font-size:22px;}
+  /* --- Responsiv / Mobil --- */
+  @media(max-width:820px){
+    html,body{overflow-x:hidden;}
+    .backbar{padding:12px 16px;} .backbar span{display:none;}
+    .page{max-width:100%;box-shadow:none;}
+    .topnav{display:none !important;}
+    .page [style*="grid-template-columns"]{grid-template-columns:1fr !important;gap:26px !important;}
+    .page [style*="px 54px"],.page [style*="px 52px"],.page [style*="px 44px"]{padding-left:22px !important;padding-right:22px !important;}
+    .page [style*="width:340px"],.page [style*="width:320px"],.page [style*="width:300px"]{width:100% !important;}
+    .page h1{font-size:clamp(30px,8vw,40px) !important;line-height:1.1 !important;}
+    .page h2{font-size:clamp(24px,6vw,30px) !important;}
+  }
 </style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23C41E33'/%3E%3Ctext x='50' y='70' text-anchor='middle' font-family='Arial,sans-serif' font-weight='800' font-size='64' fill='white'%3EW%3C/text%3E%3C/svg%3E">
 </head>
 <body>
 <div class="backbar"><a href="./index.html">← Zurück zur Übersicht</a><span>Entwurf 1b · Klinisch-klar · Grotesk-Grid</span></div>
@@ -32,7 +45,7 @@
       <div style="line-height:1;"><div style="font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:20px; color:#1B1A19;">WundSTARK<span style="color:#C41E33;">&reg;</span></div><div style="font-size:10px; letter-spacing:.26em; text-transform:uppercase; color:#9A938C; margin-top:5px; font-weight:600;">Wundzentrum</div></div>
     </div>
     <div style="display:flex; align-items:center; gap:28px;">
-      <div style="display:flex; gap:24px; font-size:14.5px; font-weight:600; color:#3A3733;"><span>Leistungen</span><span>Standorte</span><span>Ablauf</span><span>Kontakt</span></div>
+      <div class="topnav" style="display:flex; gap:24px; font-size:14.5px; font-weight:600; color:#3A3733;"><span>Leistungen</span><span>Standorte</span><span>Ablauf</span><span>Kontakt</span></div>
       <div style="background:#C41E33; color:#fff; font-weight:700; font-size:14.5px; padding:12px 20px; border-radius:8px;">Termin vereinbaren</div>
     </div>
   </div>
